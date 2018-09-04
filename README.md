@@ -13,3 +13,8 @@ The tool is relatively straightforward. You just need the Tournament.jar file an
 
 <h2>Write-Up</h2>
 
+<h1>Opening Window</h1>
+
+When the program opens, the first window displayed shows the current players that are set to be put into the game.
+
+<img src="/images/players.png"></img>
