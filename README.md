@@ -48,7 +48,7 @@ The bottom right panel displays the current matchup. This section simply shows w
 After that is the settings area. I added this so that the instructions could be brought up if instructions.txt is in the same directory, and also so that the total number of rounds can be updated, as well as the background color of the window. I added the ability to change the color because I just wanted to get experience with JSliders, and it was a fun break from fixing bugs.
 
 <img src="/images/color.png"></img>
-<img src="/images/mainwindowcolor.png"</img>
+<img src="/images/mainwindowcolor.png"></img>
 
 The alter rounds button lets you set a new number of rounds to complete. You can set it to be higher or lower than it currently is, but not lower or equal to the current amount of rounds you are on.
 
