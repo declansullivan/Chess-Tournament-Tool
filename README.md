@@ -27,13 +27,23 @@ This window is where most of the tournament will take place. This window is divi
 
 <img src="/images/mainwindow.png"></img>
 
+<h4>Player List</h4>
+
 First is the Player List panel. This is solely to keep tabs on who is in the tournament.
+
+<h4>Outcome Input</h4>
 
 Next is the Outcome Input panel. This is where the user can signal who won during the round of chess by clicking their respective button. If a player has no opponent, then the draw button and the nonexistant opponent buttons will be blanked out to avoid an accidental click.
 
+<h4>Current Leaderboard</h4>
+
 The next panel is for displaying the current leaderboard. The leaderboard is updated immediately when a game result is entered using the buttons, and the leaderboard is then sorted once the next round starts. If a player wins they get one point, each player is awarded half a point in the event of a tie, and the loser of a round gets zero points.
 
+<h4>Current Matchup</h4>
+
 The bottom right panel displays the current matchup. This section simply shows who should be going against who, and what color side they are on, depending on their highlighted name.
+
+<h4>Settings and Options</h4>
 
 After that is the settings area. I added this so that the instructions could be brought up if instructions.txt is in the same directory, and also so that the total number of rounds can be updated, as well as the background color of the window. I added the ability to change the color because I just wanted to get experience with JSliders, and it was a fun break from fixing bugs.
 
@@ -42,6 +52,20 @@ After that is the settings area. I added this so that the instructions could be 
 
 The alter rounds button lets you set a new number of rounds to complete. You can set it to be higher or lower than it currently is, but not lower or equal to the current amount of rounds you are on.
 
+<h4>Player Stats</h4>
+
 The final window is for choosing a player for which to display statistics. When you click on a button, a window pops up to give you information about the player, including the number of games they have played, times they have played a round where they had no opponent, times they have been black or white, and their current score.
 
 <img src="/images/stats.png"></img>
+
+<h4>Bottom Buttons</h4>
+
+The buttons along the bottom bar give three options. They are to progress to the next round, to display a spreadsheet, and to close the program. The next round button is disabled and only enabled to be used when all games in the round have been completed. This button also disappears when the total desired number of rounds has been completed, and is replaced by a button that will display the final standings in the spreadsheet.
+
+<img src="/images/buttons.png"></img>
+
+The spreadsheet button brings up a spreadsheet of all player activity throughout the tournament. Each player has a cell for each round showing who they played, if they won, and what color they were.
+
+<img src="/images/spreadsheet.png"></img>
+
+<h3>Algorithms/Code Description</h3>
