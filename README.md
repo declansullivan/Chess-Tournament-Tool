@@ -68,4 +68,28 @@ The spreadsheet button brings up a spreadsheet of all player activity throughout
 
 <img src="/images/spreadsheet.png"></img>
 
-<h3>Algorithms/Code Description</h3>
+<hr>
+
+<h2>Code Descriptions</h2>
+
+There were some portions of the code that I feel I should explain, so here's that.
+
+<h3>Player Object</h3>
+
+Each player in the tournament was a Player object. This allowed me to easily keep track of how many times they had been unopposed, their current color, how many times they had been each color, the number of games they had played, and how many points they had.
+
+Some of this information was incredibly useful for other portions of the program.
+
+<h3>Matchups</h3>
+
+Players were matched up based on how my teacher wanted them to be, which was by skill level. The way I went about this was by splitting the original list of players in half, and having each person play their matching index in each list. Once the first round was over, some people would rise to the top based off of their scores, so after the first round players are assigned to go against people who have similar scores, so that hopefully the fights will be fair.
+
+In the event that there is an odd number of players, there is a redundancy in place. The player with the lowest score will be paired with a Free Pass player. This is a guaranteed win for them that gives them a point at the end of the round, helping them to move up and possibly fight someone else.
+
+There was also another part of making sure the fights were fair, which was making sure that each person got to play each color an equal amount of times. When a matchup of players was created, their color would be determined by who had played white the least. Whoever that was got to be white, the other being black. If both had been white equal times, then it was randomly decided.
+
+<hr>
+
+<h2>Conclusion</h2>
+
+This was one of my first large programming projects and it was pretty fun to do. I'm quite proud of it and look forward to working on more.
